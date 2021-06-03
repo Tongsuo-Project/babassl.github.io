@@ -8,9 +8,9 @@
 layout: home
 ---
 
-<span id="img1"><img src="/images/Babassl-logo-1.png" alt="logo" width="867" height="419"  /></span>
+<span id="img1"><img src="/images/Babassl-logo-slim.png" alt="logo" width="867" height="192"  /></span>
 
-BabaSSL stands for 'brisk and better assured cryptography and SSL/TLS toolkit'. BabaSSL was initiated inside Alibaba group and Ant group. BabaSSL is now being widely used among many services provided by Alibaba and Ant group.
+BabaSSL是一款轻巧、灵活且靠谱的密码学和TLS协议工具集。BabaSSL是蚂蚁集团和阿里集团的各主要业务中所使用的底层密码库，现在开源出来供业界使用。BabaSSL广泛的应用在包括网络、存储、移动端App等场景中。
 
-We maintain this website to provide more information on the BabaSSL project such as documentation and miscellaneous. The project currently is mainly maintained on Github and OpenAnolis community.
+这个网站目前用来维护BabaSSL先关的一些文档和周边信息。目前BabaSSL的开发还是主要以Github以及阿里云OpenAnolis社区为主要载体。
 
