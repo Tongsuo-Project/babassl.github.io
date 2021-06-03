@@ -6,4 +6,6 @@ BabaSSL stands for 'brisk and better assured cryptography and SSL/TLS toolkit'. 
 
 We maintain this website to provide more information on the BabaSSL project such as documentation and miscellaneous. The project currently is mainly maintained on Github and OpenAnolis community.
 
-<span id="img1"><img src="/images/Babassl-logo-1.png" alt="logo" width="867" height="128"  /></span>
+The following is the registered trade mark of BabaSSL:
+
+<span id="img1"><img src="/images/Babassl-logo-1.png" alt="logo" width="867" height="419"  /></span>
