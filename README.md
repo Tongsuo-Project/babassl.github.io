@@ -1,3 +1,7 @@
+# Overview
+
+This is the repository that contains the BabaSSL website. We use Jekyll minima as the base template.
+
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
