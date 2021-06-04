@@ -25,4 +25,4 @@ BabaSSL的教程以Github Wiki为主要载体进行维护和组织，但是本�
 
 这里会记录一些关于BabaSSL的其他方面的文章。
 
-* [2021阿里云开发者大会上对BabaSSL的介绍]()
+* [2021阿里云开发者大会上对BabaSSL的介绍](https://babassl.github.io/2021/06/04/AliCloud-BabaSSL.html)
