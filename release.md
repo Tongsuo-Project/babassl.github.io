@@ -108,6 +108,10 @@ $ gpg --import BabaSSL-public.key
 
 ~~~
 $ gpg --verify --default-key "BabaSSL Project Team" BabaSSL-8.2.0.tar.gz.asc BabaSSL-8.2.0.tar.gz
+gpg: Signature made Fri Jun  4 15:07:37 2021 CST
+gpg:                using RSA key 3DB468378D9F73E2C0E16C64CF873EA0085111E4
+gpg:                issuer "kaishen.yy@alipay.com"
+gpg: Good signature from "BabaSSL Project Team (The key used to sign BabaSSl release file) <kaishen.yy@alipay.com>" [ultimate]
 ~~~
 
 这样，就可以利用公钥密码学的原理来确保你所下载的BabaSSL源代码包的内容没被篡改过且确实是由BabaSSL项目团队所发布的。
