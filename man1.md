@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BabaSSL API手册 - man1
+title: BabaSSL API - man1
 permalink: /manpages-entry/man1/
 ---
 
