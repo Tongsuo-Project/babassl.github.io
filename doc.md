@@ -4,10 +4,12 @@ title: 文档教程
 permalink: /doc/
 ---
 
-页面建设中……
+## API文档
 
-# API文档
+BabaSSL基于OpenSSL 1.1.1发展而来，因此其的核心API目前是以man手册的形式存放在代码仓库中，可以直接通过对源代码的编译获取到对应API文档。
 
-# 教程
+或者，可以在本网站上查看对应的HTML格式版本的man手册：[BabaSSL manpages](/manpages/)
 
-# 其他文档
+## 教程
+
+## 其他文档
