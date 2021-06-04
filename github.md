@@ -4,8 +4,6 @@ title: Github
 permalink: /github/
 ---
 
-# Github
-
 BabaSSL目前使用Github和阿里云OpenAnolis社区进行代码的托管以及执行相关的开发流程。我们完全依赖于Github提供的各种能力对项目进行管理以及对社区进行建设。BabaSSL的项目地址是：
 
 [https://github.com/BabaSSL/BabaSSL](https://github.com/BabaSSL/BabaSSL)
