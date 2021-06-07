@@ -17,7 +17,10 @@ BabaSSL的教程以Github Wiki为主要载体进行维护和组织，但是本�
 * Delegated Credentials教程
   * [DC代码示例](https://github.com/BabaSSL/BabaSSL/wiki/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%BD%BF%E7%94%A8Delegated-Credentials%E7%9A%84%E4%BE%8B%E5%AD%90)
 * 国密功能教程
-  * TBD...
+  * [NTLS使用手册](https://github.com/BabaSSL/BabaSSL/wiki/NTLS%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C)
+  * [TLS1.3 + 国密单证书](https://github.com/BabaSSL/BabaSSL/wiki/TLS1.3---%E5%9B%BD%E5%AF%86%E5%8D%95%E8%AF%81%E4%B9%A6)
+  * [BabaSSL签发SM2证书](https://github.com/BabaSSL/BabaSSL/wiki/%E4%BD%BF%E7%94%A8BabaSSL%E7%AD%BE%E5%8F%91SM2%E8%AF%81%E4%B9%A6)
+  * [BabaSSL签发SM2双证书](https://github.com/BabaSSL/BabaSSL/wiki/%E4%BD%BF%E7%94%A8BabaSSL%E7%AD%BE%E5%8F%91SM2%E5%8F%8C%E8%AF%81%E4%B9%A6)
 * IETF QUIC教程
   * TBD...
 
