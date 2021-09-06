@@ -4,7 +4,7 @@ title: 社区
 permalink: /community/
 ---
 
-BabaSSL社区由三部分组成，分别是：BabaSSL技术委员会（BabaSSL Technical Committee, BTC），代码贡献者（Contributor）以及用户（User）
+BabaSSL社区由三部分组成，分别是：BabaSSL技术委员会（BabaSSL Technical Committee, BTC），代码贡献者（Contributor）以及用户（User）。
 
 此外，在BabaSSL这个Github组织下，还存在一些辅助性的周边仓库，例如：
 
@@ -25,7 +25,7 @@ BTC的成员可以是个人也可以是组织。当前BTC成员如下（按照�
 | 成员 | 公司 | 邮箱 | Github ID |
 | --- | ---- | ---- | -------- |
 | K1 | 蚂蚁集团 | keyi.zcl@alibaba-inc.com | [dongbeiouba](https://github.com/dongbeiouba) |
-| 李延召 | 天威诚信 | | |
+| 李延昭 | 天威诚信 | chorusli@hotmail.com | [chorusli](https://github.com/chorusli) |
 | Paul Yang | 蚂蚁集团 | kaishen.yy@alipay.com | [InfoHunter](https://github.com/InfoHunter) |
 | 张海松 | 天威诚信 | zhsnew@qq.com | [zhsnew](https://github.com/zhsnew) |
 | 张天佳 | 阿里云 | tianjia.zhang@linux.alibaba.com | [uudiin](https://github.com/uudiin) |
