@@ -4,6 +4,8 @@ title: 文档教程
 permalink: /doc/
 ---
 
+注意：BabaSSL文档已经全面迁移到Read the Docs服务：[https://babassl.readthedocs.org](https://babassl.readthedocs.org)。本页面后续将不再更新。
+
 ## API文档
 
 BabaSSL基于OpenSSL 1.1.1发展而来，因此其的核心API目前是以man手册的形式存放在代码仓库中，可以直接通过对源代码的编译获取到对应API文档。
