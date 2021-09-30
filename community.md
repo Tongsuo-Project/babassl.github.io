@@ -28,7 +28,7 @@ BTC的成员可以是个人也可以是组织。当前BTC成员如下（按照�
 | 李延昭 | 天威诚信 | yanzhao.li@babassl.cn | [chorusli](https://github.com/chorusli) |
 | Paul Yang | 蚂蚁集团 | paul@babassl.cn | [InfoHunter](https://github.com/InfoHunter) |
 | 张海松 | 天威诚信 | haisong.zhang@babassl.cn | [zhsnew](https://github.com/zhsnew) |
-| 张天佳 | 阿里云 | tianjia.zhang | [uudiin](https://github.com/uudiin) |
+| 张天佳 | 阿里云 | tianjia.zhang@babassl.cn | [uudiin](https://github.com/uudiin) |
 
 # BabaSSL代码贡献者
 
