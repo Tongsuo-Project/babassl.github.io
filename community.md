@@ -24,11 +24,11 @@ BTC的成员可以是个人也可以是组织。当前BTC成员如下（按照�
 
 | 成员 | 公司 | 邮箱 | Github ID |
 | --- | ---- | ---- | -------- |
-| K1 | 蚂蚁集团 | keyi.zcl@alibaba-inc.com | [dongbeiouba](https://github.com/dongbeiouba) |
-| 李延昭 | 天威诚信 | chorusli@hotmail.com | [chorusli](https://github.com/chorusli) |
-| Paul Yang | 蚂蚁集团 | kaishen.yy@alipay.com | [InfoHunter](https://github.com/InfoHunter) |
-| 张海松 | 天威诚信 | zhsnew@qq.com | [zhsnew](https://github.com/zhsnew) |
-| 张天佳 | 阿里云 | tianjia.zhang@linux.alibaba.com | [uudiin](https://github.com/uudiin) |
+| K1 | 蚂蚁集团 | k1@babassl.cn | [dongbeiouba](https://github.com/dongbeiouba) |
+| 李延昭 | 天威诚信 | yanzhao.li@babassl.cn | [chorusli](https://github.com/chorusli) |
+| Paul Yang | 蚂蚁集团 | paul@babassl.cn | [InfoHunter](https://github.com/InfoHunter) |
+| 张海松 | 天威诚信 | haisong.zhang@babassl.cn | [zhsnew](https://github.com/zhsnew) |
+| 张天佳 | 阿里云 | tianjia.zhang | [uudiin](https://github.com/uudiin) |
 
 # BabaSSL代码贡献者
 
