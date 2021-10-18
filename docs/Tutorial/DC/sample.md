@@ -14,7 +14,7 @@ int main()
 {
     SSL *s;
     SSL_CTX *ctx;
-	DELEGATED_CREDENTIAL *dc = NULL;
+    DELEGATED_CREDENTIAL *dc = NULL;
 
     ctx = SSL_CTX_new(TLS_server_method());
     if (ctx == NULL) {
