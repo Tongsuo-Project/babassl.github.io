@@ -1,0 +1,49 @@
+name: Build docs
+
+on: 
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'trigger build docs'
+        required: false
+        default: 'trigger build docs'
+
+jobs:
+  check_update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Checkout BabaSSL
+        uses: actions/checkout@v2
+        with:
+          repository: BabaSSL/BabaSSL
+          path: BabaSSL
+      - name: config
+        working-directory: BabaSSL
+        run: ./config --prefix=${GITHUB_WORKSPACE}/BabaSSL/build --strict-warnings && perl configdata.pm --dump
+      - name: make build_generated
+        working-directory: BabaSSL
+        run: make -s build_generated
+      - name: make doc-nits
+        working-directory: BabaSSL
+        run: make doc-nits
+      - name: mkdir build
+        working-directory: BabaSSL
+        run: mkdir build
+      - name: make install_html_docs
+        working-directory: BabaSSL
+        run: make install_html_docs
+
+      - name: copy html
+        run: cp -rf ${GITHUB_WORKSPACE}/BabaSSL/build/share/doc/openssl/html/* docs/API/manpages/
+
+      - name: rm babassl
+        run: rm -rf ${GITHUB_WORKSPACE}/BabaSSL
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: master
+          folder: .
+
