@@ -41,6 +41,23 @@ jobs:
       - name: rm babassl
         run: rm -rf ${GITHUB_WORKSPACE}/BabaSSL
 
+      - name: reindex manX.md
+        run: |
+          cd docs/API
+          mans="1 3 5 7"
+          for i in $mans
+          do
+              sed -i '/^*/d' man${i}.md
+
+              for line in `find manpages/man${i}/ -type f -name '*.html' | sort`
+              do
+                  api=`basename ${line}`
+                  api=${api%.html}
+                  echo "* [${api}](${line})" >>  man${i}.md
+              done
+           done
+        shell: bash
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
