@@ -192,6 +192,12 @@
 <p>The cipher suites not enabled by <b>ALL</b>, currently <b>eNULL</b>.</p>
 
 </dd>
+<dt id="PROFILE-SYSTEM"><b>PROFILE=SYSTEM</b></dt>
+<dd>
+
+<p>The list of enabled cipher suites will be loaded from the system crypto policy configuration file <b>/etc/crypto-policies/back-ends/openssl.config</b>. See also <a href="../man8/update-crypto-policies.html">update-crypto-policies(8)</a>. This is the default behavior unless an application explicitly sets a cipher list. If used in a cipher list configuration value this string must be at the beginning of the cipher list, otherwise it will not be recognized.</p>
+
+</dd>
 <dt id="HIGH"><b>HIGH</b></dt>
 <dd>
 
