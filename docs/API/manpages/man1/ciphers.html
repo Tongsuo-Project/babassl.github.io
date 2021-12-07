@@ -29,7 +29,6 @@
       <li><a href="#Additional-Export-1024-and-other-cipher-suites">Additional Export 1024 and other cipher suites</a></li>
       <li><a href="#Elliptic-curve-cipher-suites">Elliptic curve cipher suites.</a></li>
       <li><a href="#TLS-v1.2-cipher-suites">TLS v1.2 cipher suites</a></li>
-      <li><a href="#ARIA-cipher-suites-from-RFC6209-extending-TLS-v1.2">ARIA cipher suites from RFC6209, extending TLS v1.2</a></li>
       <li><a href="#Camellia-HMAC-Based-cipher-suites-from-RFC6367-extending-TLS-v1.2">Camellia HMAC-Based cipher suites from RFC6367, extending TLS v1.2</a></li>
       <li><a href="#Pre-shared-keying-PSK-cipher-suites">Pre-shared keying (PSK) cipher suites</a></li>
       <li><a href="#ChaCha20-Poly1305-cipher-suites-extending-TLS-v1.2">ChaCha20-Poly1305 cipher suites, extending TLS v1.2</a></li>
@@ -318,12 +317,6 @@
 <dd>
 
 <p>AES in Cipher Block Chaining - Message Authentication Mode (CCM): these cipher suites are only supported in TLS v1.2. <b>AESCCM</b> references CCM cipher suites using both 16 and 8 octet Integrity Check Value (ICV) while <b>AESCCM8</b> only references 8 octet ICV.</p>
-
-</dd>
-<dt id="ARIA128-ARIA256-ARIA"><b>ARIA128</b>, <b>ARIA256</b>, <b>ARIA</b></dt>
-<dd>
-
-<p>Cipher suites using 128 bit ARIA, 256 bit ARIA or either 128 or 256 bit ARIA.</p>
 
 </dd>
 <dt id="CAMELLIA128-CAMELLIA256-CAMELLIA"><b>CAMELLIA128</b>, <b>CAMELLIA256</b>, <b>CAMELLIA</b></dt>
@@ -629,27 +622,6 @@
  ECDHE_ECDSA_WITH_AES_256_CCM              ECDHE-ECDSA-AES256-CCM
  ECDHE_ECDSA_WITH_AES_128_CCM_8            ECDHE-ECDSA-AES128-CCM8
  ECDHE_ECDSA_WITH_AES_256_CCM_8            ECDHE-ECDSA-AES256-CCM8</code></pre>
-
-<h2 id="ARIA-cipher-suites-from-RFC6209-extending-TLS-v1.2">ARIA cipher suites from RFC6209, extending TLS v1.2</h2>
-
-<p>Note: the CBC modes mentioned in this RFC are not supported.</p>
-
-<pre><code> TLS_RSA_WITH_ARIA_128_GCM_SHA256          ARIA128-GCM-SHA256
- TLS_RSA_WITH_ARIA_256_GCM_SHA384          ARIA256-GCM-SHA384
- TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256      DHE-RSA-ARIA128-GCM-SHA256
- TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384      DHE-RSA-ARIA256-GCM-SHA384
- TLS_DHE_DSS_WITH_ARIA_128_GCM_SHA256      DHE-DSS-ARIA128-GCM-SHA256
- TLS_DHE_DSS_WITH_ARIA_256_GCM_SHA384      DHE-DSS-ARIA256-GCM-SHA384
- TLS_ECDHE_ECDSA_WITH_ARIA_128_GCM_SHA256  ECDHE-ECDSA-ARIA128-GCM-SHA256
- TLS_ECDHE_ECDSA_WITH_ARIA_256_GCM_SHA384  ECDHE-ECDSA-ARIA256-GCM-SHA384
- TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256    ECDHE-ARIA128-GCM-SHA256
- TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384    ECDHE-ARIA256-GCM-SHA384
- TLS_PSK_WITH_ARIA_128_GCM_SHA256          PSK-ARIA128-GCM-SHA256
- TLS_PSK_WITH_ARIA_256_GCM_SHA384          PSK-ARIA256-GCM-SHA384
- TLS_DHE_PSK_WITH_ARIA_128_GCM_SHA256      DHE-PSK-ARIA128-GCM-SHA256
- TLS_DHE_PSK_WITH_ARIA_256_GCM_SHA384      DHE-PSK-ARIA256-GCM-SHA384
- TLS_RSA_PSK_WITH_ARIA_128_GCM_SHA256      RSA-PSK-ARIA128-GCM-SHA256
- TLS_RSA_PSK_WITH_ARIA_256_GCM_SHA384      RSA-PSK-ARIA256-GCM-SHA384</code></pre>
 
 <h2 id="Camellia-HMAC-Based-cipher-suites-from-RFC6367-extending-TLS-v1.2">Camellia HMAC-Based cipher suites from RFC6367, extending TLS v1.2</h2>
 
