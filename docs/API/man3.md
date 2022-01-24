@@ -119,6 +119,7 @@
 * [DTLSv1_listen](manpages/man3/DTLSv1_listen.html)
 * [ECDSA_SIG_new](manpages/man3/ECDSA_SIG_new.html)
 * [ECPKParameters_print](manpages/man3/ECPKParameters_print.html)
+* [EC_ELGAMAL_encrypt](manpages/man3/EC_ELGAMAL_encrypt.html)
 * [EC_GFp_simple_method](manpages/man3/EC_GFp_simple_method.html)
 * [EC_GROUP_copy](manpages/man3/EC_GROUP_copy.html)
 * [EC_GROUP_new](manpages/man3/EC_GROUP_new.html)
