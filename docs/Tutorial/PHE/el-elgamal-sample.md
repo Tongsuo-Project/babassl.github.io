@@ -1,4 +1,4 @@
-# 用法&例子
+# 用法和例子
 
 ## demo 程序
 
@@ -168,3 +168,4 @@ EC_ELGAMAL_mul(C500,800) cost: 1.568000ms
 EC_ELGAMAL_decrypt(C500,800) result: 400000, cost: 261.117000ms
 EC_ELGAMAL_CIPHERTEXT_encode size: 66
 ~~~
+
