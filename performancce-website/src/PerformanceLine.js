@@ -44,7 +44,7 @@ class PerformanceLine extends Component {
           const container = document.createElement('div');
           container.className = 'g2-tooltip';
           const title = `<div class="g2-tooltip-title" style="margin-top: 12px;margin-bottom: 12px;">
-                           <a href="https://github.com/jinjiu/BabaSSL/commit/${commit}" title="点击进入 github commit" target="_blank">${name}</a>
+                           <a href="https://github.com/BabaSSL/BabaSSL/commit/${commit}" title="点击进入 github commit" target="_blank">${name}</a>
                          </div>`;
           let listItem = '';
           items.forEach((item) => {
